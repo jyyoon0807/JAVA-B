@@ -13,7 +13,7 @@ void main() {
 
     System.out.print("구입 가격 입력 : ");
     price = keyboard.nextInt();
-    System.out.print("화눤 등급 입력 (VIP, GOLD, SILVER, NONE) 예) V or v ");
+    System.out.print("회원 등급 입력 (VIP, GOLD, SILVER, NONE) 예) V or v ");
     grade = keyboard.next().charAt(0);
 
     gradeTemp = grade == 'V' ? "VIP" : (grade == 'G' ? "GOLD" : (grade == 'S' ? "SILVER" : "NONE"));
